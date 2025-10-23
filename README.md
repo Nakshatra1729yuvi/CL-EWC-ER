@@ -28,6 +28,22 @@ This repository implements **Elastic Weight Consolidation (EWC)** and **Experien
     pip install numpy torch matplotlib
     ```
 
+## Results 📊
+
+**Final Validation Accuracies:**
+- After Task 1 (MNIST): **97.76%**
+- After Task 2 (FashionMNIST with EWC): **87.29%**
+- MNIST (after FashionMNIST + EWC): **92.86%**
+
+**Configuration Parameters:**
+- Batch size: 512
+- Model: SimpleCNN (dim=768, out_feat=10)
+- Optimizer: Adam (lr=1e-3)
+- Loss: CrossEntropyLoss
+- EWC Lambda: 5000
+- Memory size (ER): 10,000
+- Epochs per task: 2
+
 ## Citation 🎓
 If you use this repository in your research, please cite accordingly:
 ```plaintext
