@@ -32,8 +32,8 @@ This repository implements **Elastic Weight Consolidation (EWC)** and **Experien
 
 **Final Validation Accuracies:**
 - After Task 1 (MNIST): **97.76%**
-- After Task 2 (FashionMNIST with EWC): **87.29%**
-- MNIST (after FashionMNIST + EWC): **92.86%**
+- After Task 2 (FashionMNIST with EWC&ER): **87.29%**
+- MNIST (after FashionMNIST + EWC&ER): **92.86%**
 
 **Configuration Parameters:**
 - Batch size: 512
